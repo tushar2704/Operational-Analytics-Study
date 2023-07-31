@@ -82,9 +82,34 @@ WITH (FORMAT CSV, HEADER);
 --Checking for users table
 SELECT * FROM email_events ;
 
-
 -----------------------------------------------------------------------------------------------
+-- job_data Table
 
+CREATE TABLE job_data(
+	ds DATE,
+	job_id INT,
+	actor_id INT,
+	event VARCHAR(30),
+	language VARCHAR(30),
+	time_spent INT,
+	org VARCHAR(30)
+	
+	);
+SET datestyle = 'ISO, MDY';
+--Adding Data in users table
+
+COPY job_data 
+FROM 'D:\Operational-Analytics-Study\src\data\job_data.csv'
+WITH (FORMAT CSV, HEADER);
+
+--Checking for users table
+SELECT * FROM job_data ;
+
+--------------------------------------------------------------------------------------
+/* © 2023 Tushar Aggarwal. All rights reserved. 
+https://github.com/tushar2704/
+Operational-Analytics
+*/
 
 
 

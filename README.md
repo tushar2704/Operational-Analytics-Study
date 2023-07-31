@@ -10,12 +10,10 @@
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 
-This project will focus on investigating metric spikes and using advanced SQL skills to answer critical questions and improve the company's operations.
+Operational Analytics is a critical process in modern companies, aimed at analyzing end-to-end operations to identify areas for improvement. The primary objective of this project is to investigate metric spikes and provide actionable insights to improve the company's operations. 
 
-## Reports
-### [Interactive report on Novapro]()
-### [Interactive report on Tushar-Aggarwal.com]()
-### [SQL Queries Report]()
+The project will cover a wide range of areas, including user engagement, sales performance, marketing effectiveness, and more. You'll be provided with access to datasets containing user information, events data, and email engagement details.
+
 
 ## Project Structure
 
@@ -23,19 +21,19 @@ This project will focus on investigating metric spikes and using advanced SQL sk
     ├── README.md          <- README for using this project.
     ├── query              <- Code of the DB creation and queries.
     │   │
-    │   └── pizza_sales_db.sql       <- DB creation.
+    │   └── db.sql       <- DB creation.
     │   └── query.sql                <- Final queries.
 
     ├── reports            <- Folder containing the final reports/results of this project.
     │   │
-    │   └── Pizza_Sales_Report.pdf   <- Final analysis report in PDF.
-    │   └── query_report.pdf         <- Final query report in PDF for verifying data.
+    │   └── Report.docx              <- Final analysis report in PDF.
+    │   └── Report.docx         <- Final query report in PDF for verifying data.
     │   
     ├── src                <- Source for this project.
         │
         ├── data           <- Datasets used and collected for this project.
         │   
-        ├── pizza_sales_images       <- Additional images for Dashboards.
+        ├── images       <- Additional images for Dashboards.
         │
         ├── data_dictionary.csv      <- Data Dictionary for the dataset.
 
@@ -49,7 +47,7 @@ This project will focus on investigating metric spikes and using advanced SQL sk
 
 ## Dataset Overview
 #### job_data with the following columns:
-```job_id: Unique identifier of jobs```
+```job_id: Unique identifier of jobs``` 
 
 ```actor_id: Unique identifier of actor```
 
@@ -72,15 +70,13 @@ This project will focus on investigating metric spikes and using advanced SQL sk
 ## Analysis on Case Study 1: Job Data Analysis
 In this case study, I worked with the "job_data" table, investigating job-related metrics.  Tasks includes calculating the number of jobs reviewed per hour for each day in November 2020, deriving the 7-day rolling average of throughput, analyzing the language share over the last 30 days, and identifying duplicate rows in the data.
 ## Key Questions Explored
+
 ### Jobs Reviewed Over Time
 Objective: Calculateing the number of jobs reviewed per hour for each day in November 2020.
-
 ### Throughput Analysis
 Objective: Calculating the 7-day rolling average of throughput (number of events per second).
-
 ### Language Share Analysis
 Objective: Calculating the percentage share of each language in the last 30 days.
-
 ### Duplicate Rows Detection
 Objective: Identifying duplicate rows in the data.
 
@@ -107,8 +103,8 @@ Objective: Analyzing how users are engaging with the email service.
 
 
 ## Summary of Findings
-- [Case Study 1]()
-- [Case Study 2]()
+- [Case Study 1](https://github.com/tushar2704/Operational-Analytics-Study/blob/main/reports/Case_1.docx)
+- [Case Study 2](https://github.com/tushar2704/Operational-Analytics-Study/blob/main/reports/Case_2.docx)
 ## Author
 - <ins><b>©2023 Tushar Aggarwal. All rights reserved</b></ins>
 - <b>[LinkedIn](https://www.linkedin.com/in/tusharaggarwalinseec/)</b>
